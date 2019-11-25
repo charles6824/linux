@@ -1,0 +1,82 @@
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.active{
+    background: goldenrod;
+    color: #000 !important;
+    height: 50px;
+}
+.navbar{
+    height: 50px;
+    background-color: rgb(92, 89, 89);
+}
+.navbar-nav{
+    text-transform: uppercase;
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.nav-link{
+    color: goldenrod;
+    padding-top: 10px;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.edit{
+    color: goldenrod;
+    font-size: 10px;
+    position: absolute;
+    top: 1.3rem;
+    z-index: 1;
+    margin-left: 3px;
+}
+.pix{
+    background-image: url('img/Slider5.jpg');
+}
+.down{
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+}
+.show{
+    display: none;
+}
+.cloud{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.para{
+    color: goldenrod;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.gold{
+    background: goldenrod;
+}
+.pad{
+    padding: 5rem 5rem 5rem 0;
+}
+.but{
+    border: 1px solid #000;
+}
+@media (max-width : 576px){
+    .pad{
+        display: none;
+    }
+    .down{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .show{
+        display: initial;
+        margin-left: 8rem;
+    }
+    .pix{
+        height: 270px;
+    }
+}
